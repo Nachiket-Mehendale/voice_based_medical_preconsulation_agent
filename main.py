@@ -796,21 +796,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-# =============================================================================
-# INSTALLATION & SETUP
-# =============================================================================
-# 
-# Required packages:
-# pip install gradio speech-recognition pyttsx3 groq requests pyaudio
-#
-# System requirements:
-# Windows: pip install pywin32  
-# macOS: brew install portaudio (if needed)
-# Linux: sudo apt-get install python3-pyaudio espeak
-#
-# Browser permissions:
-# - Allow microphone access when prompted
-# - Ensure speakers/headphones are working
-# - Keep browser tab active during consultation
-#
-# =============================================================================
+
