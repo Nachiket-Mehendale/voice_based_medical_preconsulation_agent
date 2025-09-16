@@ -1,0 +1,33 @@
+# Core Dependencies
+gradio>=4.0.0
+speech-recognition>=3.10.0
+pyttsx3>=2.90
+groq>=0.4.0
+requests>=2.28.0
+python-dotenv>=1.0.0
+
+# Audio Processing
+pyaudio>=0.2.11
+
+# System and Utilities
+datetime
+json
+threading
+queue
+asyncio
+time
+
+# Platform-specific dependencies (install conditionally)
+# Windows
+pywin32>=306; sys_platform == "win32"
+
+# Development Dependencies (optional)
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
+
+# Documentation
+sphinx>=5.0.0
+sphinx-rtd-theme>=1.2.0
